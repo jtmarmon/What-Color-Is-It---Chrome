@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "What Color Is It?",
+  "description": "What Color Is It? Chrome Edition. Originally from http://whatcolourisit.scn9a.org/",
+  "version": "1.0",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "https://fonts.googleapis.com/*",
+    "http://ajax.googleapis.com/*"
+  ]
+}
